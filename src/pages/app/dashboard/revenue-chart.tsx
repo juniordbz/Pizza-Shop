@@ -2,9 +2,7 @@ import {
   CartesianGrid,
   Line,
   LineChart,
-  ResponsiveContaine,
   ResponsiveContainer,
-  Tooltip,
   XAxis,
   YAxis,
 } from 'recharts'
