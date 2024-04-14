@@ -14,7 +14,7 @@ export const getOrderDetailsMock = http.get<
     id: params.orderId,
     customer: {
       name: 'John Doe',
-      email: 'johndoe@example.com',
+      email: 'teste@teste.com.br',
       phone: '123124125115',
     },
     status: 'pending',
