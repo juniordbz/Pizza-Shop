@@ -72,7 +72,9 @@ export function SignUp() {
           </div>
           <form onSubmit={handleSubmit(handleSignUp)} className="space-y-4">
             <div className="space-y-2">
-              <Label htmlFor="email">Nome do estabelecimento</Label>
+              <Label htmlFor="Nome do estabelecimento">
+                Nome do estabelecimento
+              </Label>
               <Input
                 id="restaurantName"
                 type="text"
@@ -81,7 +83,7 @@ export function SignUp() {
               />
             </div>
             <div className="space-y-2">
-              <Label htmlFor="email">Seu nome</Label>
+              <Label htmlFor="Seu nome">Seu nome</Label>
               <Input
                 id="managerName"
                 type="text"
@@ -90,11 +92,11 @@ export function SignUp() {
               />
             </div>
             <div className="space-y-2">
-              <Label htmlFor="email">Seu e-mail</Label>
+              <Label htmlFor="Seu e-mail">Seu e-mail</Label>
               <Input id="email" type="email" required {...register('email')} />
             </div>
             <div className="space-y-2">
-              <Label htmlFor="email">Seu celular</Label>
+              <Label htmlFor="Seu celular">Seu celular</Label>
               <Input id="phone" type="tel" required {...register('phone')} />
             </div>
             <Button disabled={isSubmitting} className="w-full" type="submit">
